@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    color: black;
+    background-color: rgb(124, 161, 175);
+}
+
+:root {
+    --mainColor: cyan;
+}
+
+.color:hover {
+    background-color: white;
+    border-radius: 100%
+}
+
+.start {
+    margin-top: 250px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 15px;
+}
+
+nav a {
+    background-repeat: repeat-x;
+    color: black;
+    padding-left: 10px;
+    text-decoration: none;
+    background:
+    linear-gradient(
+        to right,
+        var(--mainColor) 0%,
+        var(--mainColor) 5px,
+        transparent 5px
+    );
+}
+
+nav a:hover {
+    display: inline-block;
+    color: black;
+    background:
+    linear-gradient(
+        to right,
+        var(--mainColor) 0%,
+        var(--mainColor) 5px,
+        transparent
+    );
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    top: 0;
+}
+
+.covertext {
+    border-bottom: 10px solid black;
+    margin-left: 600px;
+    margin-right: 300px;
+    padding-top: 200px;
+    font-family: serif;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: rgb(86, 132, 150);
+    opacity: .7;
+    box-shadow: 0 10px 20px black;
+}
+
+h3 {
+    padding-top: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+}
+
+.aboutSection {
+    color: white;
+    background-color: rgb(86, 132, 150);
+    text-align: center;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.aboutPara {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bgimg-1 {
+    background-image: url(../img/img13.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    background-color: transparent;
+    opacity: .7;
+}
+
+.quote {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.highlight {
+    background-color: white;
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+}
+
+.bgimg-2 {
+    background-image: url(../img/pexels-photo-971619.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.bgimg-3 {
+    background-image: url(../img/pexels-photo-917494.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
